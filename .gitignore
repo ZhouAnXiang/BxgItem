@@ -1,0 +1,21 @@
+# 这个文件是用来告诉git, 在我们进行备份时，哪些文件或者文件夹不需要备份
+# 一行就指定一个规则
+# .idea\ 就是告诉git在备份是不备份.idea文件夹
+.idea\
+README.md
+
+#  img\test.jpeg 告诉git 不要备份img\test.jpeg
+img\test.jpeg
+
+# demo\*.js 告诉git 不要备份 demo文件夹下的所有的 js文件
+demo\*.js
+# demo\*.*
+
+# ** 表示任意文件夹，*表示任意文件名或者后缀名
+# .gitignore
+
+
+
+
+
+
